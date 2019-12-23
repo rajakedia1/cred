@@ -13,7 +13,7 @@ function Pages({ match }) {
 	
 	const namelist = match.url;
 	console.log("M: ", match, namelist, obj[name]);
-  if (namelist === '/cred') {
+  if (namelist === '/cred' || namelist === '/cred/') {
     return (
       <div className={styles["container"]}>
         <Homescreen />
