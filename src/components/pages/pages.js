@@ -2,6 +2,7 @@ import React from "react";
 import Screen from "../screen/screen";
 
 import styles from "./pages.scss";
+import Homescreen from "../screen/homescreen";
 
 function Pages({ match }) {
   const obj = {
@@ -12,9 +13,13 @@ function Pages({ match }) {
 
   const namelist = match.url.match(/[^/].+/);
   if (!namelist) {
-    return <div>Home</div>;
-	}
-	const name = namelist[0];
+    return (
+      <div className={styles["container"]}>
+        <Homescreen />
+      </div>
+    );
+  }
+  const name = namelist[0];
   console.log("M: ", match, name, obj[name]);
   return (
     <div className={styles["container"]}>
