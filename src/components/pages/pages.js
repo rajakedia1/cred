@@ -7,8 +7,8 @@ import Homescreen from "../screen/homescreen";
 function Pages({ match }) {
   const obj = {
     '/cred/search': { img: "1", back: "/cred/product" },
-    '/cred/browse': { img: "2", back: "/search" },
-    '/cred/product': { img: "3", back: "/browse" }
+    '/cred/browse': { img: "2", back: "/cred/search" },
+    '/cred/product': { img: "3", back: "/cred/browse" }
   };
 	
 	const namelist = match.url;

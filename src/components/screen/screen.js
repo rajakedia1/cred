@@ -10,7 +10,7 @@ function Screen({ screenID }) {
 			<div className={styles['button']}>
 				<Link className={styles['back']} to={screenID.back}></Link>
 			</div>
-      <img className={styles["img"]} src={`/images/${screenID.img}.png`} />
+      <img className={styles["img"]} src={`/cred/images/${screenID.img}.png`} />
     </div>
   );
 }
