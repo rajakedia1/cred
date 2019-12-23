@@ -12,6 +12,7 @@ const PRECACHE_URLS = [
 		'/cred',
     '/cred/index.html',
 		'/cred/dist/bundle.js',
+		'/cred/images/1.png',
 		'/cred/images/2.png',
 		'/cred/images/3.png',
    // Alias for index.html
