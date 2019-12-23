@@ -1,0 +1,15 @@
+{
+	"short_name": "Save Form",
+	"name": "Save Form",
+	"icons": [
+		{
+			"src": "images/icon/icon.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "https://rajakedia1.github.io/saveform/",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}
