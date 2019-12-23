@@ -6,20 +6,21 @@ import Homescreen from "../screen/homescreen";
 
 function Pages({ match }) {
   const obj = {
-    search: { img: "1", back: "/product" },
-    browse: { img: "2", back: "/search" },
-    product: { img: "3", back: "/browse" }
+    '/cred/search': { img: "1", back: "/cred/product" },
+    '/cred/browse': { img: "2", back: "/search" },
+    '/cred/product': { img: "3", back: "/browse" }
   };
-
-  const namelist = match.url.match(/[^/].+/);
-  if (!namelist) {
+	
+	const namelist = match.url;
+	console.log("M: ", match, namelist, obj[name]);
+  if (namelist === '/cred') {
     return (
       <div className={styles["container"]}>
         <Homescreen />
       </div>
     );
   }
-  const name = namelist[0];
+  const name = match.url;
   console.log("M: ", match, name, obj[name]);
   return (
     <div className={styles["container"]}>

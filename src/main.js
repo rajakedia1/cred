@@ -31,11 +31,11 @@ function Main() {
 					<Route path="/cred" component={Pages}/>
         </Switch> */}
 				<Switch>
-          <Route path="/cred/" exact component={Pages}/>
+          <Route path="/cred" exact component={Pages}/>
 					<Route path="/cred/browse" component={Pages}/>
 					<Route path="/cred/product" component={Pages}/>
 					<Route path="/cred/search" component={Pages}/>
-					<Route path="/cred/cred" component={Pages}/>
+					{/* <Route path="/cred/cred" component={Pages}/> */}
         </Switch>
       </div>
     </Router>
