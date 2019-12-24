@@ -4,8 +4,8 @@
 	"icons": [
 		{
 			"src": "images/icon/icon_cred.jpg",
-			"type": "image/png",
-			"sizes": "512x512"
+			"type": "image/jpg",
+			"sizes": "246x246"
 		}
 	],
 	"start_url": "https://rajakedia1.github.io/cred/",

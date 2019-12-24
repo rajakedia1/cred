@@ -10,7 +10,6 @@ const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
 		'/cred/',
     '/cred',
-    '/cred/home',
     '/cred/index.html',
 		'/cred/dist/bundle.js',
 		'/cred/images/1.png',
