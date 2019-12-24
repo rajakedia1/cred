@@ -3,12 +3,12 @@
 	"name": "Cred App",
 	"icons": [
 		{
-			"src": "images/icon/icon.png",
+			"src": "images/icon/icon_cred.jpg",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
 	],
-	"start_url": "https://rajakedia1.github.io/cred/",
+	"start_url": "https://rajakedia1.github.io/cred/home",
 	"display": "standalone",
 	"theme_color": "#000000",
 	"background_color": "#ffffff"

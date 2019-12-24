@@ -6,7 +6,7 @@ function Homescreen() {
   return (
     <div className={styles["container"]}>
       <div className={styles["button"]}>
-        <Link className={styles["link"]} to="/cred/reward">
+        <Link className={styles["link"]} to="/cred/home">
           Reward
         </Link>
       </div>

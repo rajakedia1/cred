@@ -10,7 +10,7 @@
     z-index: 100;
     top: 128px;
     overflow-y: scroll;
-    max-height: 850px;
+    max-height: 800px;
     .content-button {
       position: absolute;
       top: 534px;
@@ -27,7 +27,7 @@
 	.bs-wrapper{
 		position: fixed;
     z-index: 1000;
-    top: 750px;
+    top: 800px;
     transition: top 0.4s ease-in;
   }
   .show-bs {
@@ -35,10 +35,13 @@
   }
   .button {
     position: fixed;
+    top: 39px;
+    left: 15px;
+    z-index: 20;
     .back {
       width: 40px;
       height: 40px;
-      background: #000;
+      background: red;
       opacity: 0;
       display: block;
     }

@@ -30,7 +30,7 @@ function RewardScreen() {
   return (
     <div className={styles["wrapper"]}>
       <div className={styles["button"]}>
-        <Link className={styles["back"]} to={"/cred/"}></Link>
+        <Link className={styles["back"]} to={"/cred/home"}></Link>
       </div>
       <div className={styles["main"]}>
         <img
