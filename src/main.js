@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Pages from './components/pages/pages';
+import RewardScreen from "./components/rewardscreen/rewardscreen";
 
 function Main() {
   return (
@@ -35,6 +36,7 @@ function Main() {
 					<Route path="/cred/browse" component={Pages}/>
 					<Route path="/cred/product" component={Pages}/>
 					<Route path="/cred/search" component={Pages}/>
+					<Route path="/cred/reward" component={RewardScreen}/>
 					{/* <Route path="/cred/cred" component={Pages}/> */}
         </Switch>
       </div>

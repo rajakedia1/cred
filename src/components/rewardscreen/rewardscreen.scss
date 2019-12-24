@@ -1,0 +1,49 @@
+.wrapper {
+  position: relative;
+  .main {
+    position: fixed;
+    top: -22px;
+    z-index: 10;
+  }
+  .main-scroll {
+    position: fixed;
+    z-index: 100;
+    top: 128px;
+    overflow-y: scroll;
+    max-height: 850px;
+    .content-button {
+      position: absolute;
+      top: 534px;
+      left: 40px;
+      .bs {
+        display: block;
+        width: 350px;
+        height: 230px;
+        background: blue;
+        opacity: 0;
+      }
+    }
+	}
+	.bs-wrapper{
+		position: fixed;
+    z-index: 1000;
+    top: 750px;
+    transition: top 0.4s ease-in;
+  }
+  .show-bs {
+    top: 150px;
+  }
+  .button {
+    position: fixed;
+    .back {
+      width: 40px;
+      height: 40px;
+      background: #000;
+      opacity: 0;
+      display: block;
+    }
+  }
+  .img {
+    width: 100%;
+  }
+}
